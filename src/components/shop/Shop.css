@@ -1,0 +1,78 @@
+.Shop {
+    padding: 15px 5px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+    border-radius: 14px;
+    background-color: #fff;
+    width: 960px;
+    position: absolute;
+    top: 580px;
+    left: 210px;
+    margin: 0 0 30px 0;
+}
+
+
+.hero__list {
+    list-style-type: none;
+    padding: 0;
+}
+.hero__item {
+    margin: 1rem;
+    padding: 10px 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: 1px solid #ccc;
+} 
+
+.hero__price-box {
+    padding: 0 0 10px 0;
+}
+.hero__amount-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 15px 0;
+}
+.hero__title-inner {
+    font-size: 21px;
+    color: #000;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+}
+.hero__amount {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    margin: 0 16px 0 0;
+}
+.hero__amount-count {
+    width: 3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding: 0.3rem 0 0.3rem 0.5rem;
+
+}
+.hero__price-info {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+}
+.hero__price {
+    margin: 10px 0 0;
+    font-weight: 700;
+    color: #ad5502;
+    font-size: 1.25rem;
+}
+.hero__price-btn {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: #fff;
+    padding: 0.45rem 2rem;
+    border-radius: 20px;
+    font-weight: 700;
+}
